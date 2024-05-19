@@ -1,0 +1,48 @@
+.vagas-list {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.vagas-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.vagas-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.vaga-item {
+  padding: 15px;
+  border-bottom: 1px solid #ced4da;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vaga-item:last-child {
+  border-bottom: none;
+}
+
+.vaga-item p {
+  margin: 5px 0;
+}
+
+.remove-button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
